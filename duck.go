@@ -100,7 +100,8 @@ func main() {
 	args := os.Args[1:]
 
 	banner.Print("  duck  ")
-	color.Yellow("Usage: duck [/path/to/old.csv] [path/to/new.csv] [path/to/out.csv] [header identifier]")
+	color.Red("\n- by Siddhartha Mukherjee <mukherjee.siddhartha@gmail.com>")
+	color.Yellow("\nUsage: duck [/path/to/old.csv] [path/to/new.csv] [path/to/out.csv] [header identifier]\n")
 
 	oldCsvPath = args[0]
 	newCsvPath = args[1]
